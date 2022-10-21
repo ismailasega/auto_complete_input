@@ -1,0 +1,63 @@
+.App {
+  font-family: sans-serif;
+}
+.heading-text {
+  text-align: center;
+  margin-bottom: 40px;
+}
+/* Input Field */
+.input-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+input {
+  margin-top: 5px;
+  height: 35px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border-width: 1px;
+  border: 0.5px thin gray;
+  font-size: 13px;
+}
+
+.list-container {
+  margin-top: 5px;
+  position: relative;
+  background: white;
+  min-height: 150px;
+  overflow-y: scroll;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.item {
+  border-bottom: 1px thin lightgray;
+  padding: 4px;
+  margin-left: 10px;
+}
+
+.student-name {
+  font-size: 14px;
+}
+
+.item:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+.no-data-text {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.error-text {
+  margin-top: 10px;
+  font-size: 13px;
+  color: red;
+  text-align: center;
+}
